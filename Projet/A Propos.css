@@ -1,0 +1,92 @@
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  color:  #FFFFFF;
+}
+
+body {
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://media.istockphoto.com/id/1404094741/fr/vectoriel/fond-abstrait-moderne-bleu-fonc%C3%A9-avec-des-formes-g%C3%A9om%C3%A9triques-diagonales.jpg?s=612x612&w=0&k=20&c=mqnS4HB-0KxiAu42gCGl0qHDv9K3oTF19rjUfidAdt0=);
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color:  #FFFFFF;
+  text-decoration: none;
+}
+
+ /* styling search bar */
+.search input[type=text]{
+width:200px;
+ height:25px;
+border-radius:25px;
+border: none;
+}
+p{
+font-size:25px;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.about h1.logo-text {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #f2f2f2;
+}
+
+.contact span {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.socials a {
+  margin-right: 10px;
+  color: #f2f2f2
+}
+.rouge a{ 
+color: #FFFFFF;
+}
+
+
